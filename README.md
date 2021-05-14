@@ -1,1 +1,1 @@
-# Arduino-k-z-l-tesi-sinyalleri-bulma
+# Arduino kizil ötesi sinyalleri bulma
