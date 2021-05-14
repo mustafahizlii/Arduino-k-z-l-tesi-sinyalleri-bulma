@@ -1,16 +1,18 @@
 #include <IRremote.h>
 
+#include <IRremote.h>
+
 int RECV_PIN = 2;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 
 
-#define BUTON0 0x80BFE11E
-#define BUTON1 0x80BF49B6
-#define BUTON2 0x80BFC936
-#define BUTON3 0x80BF33CC
-#define BUTON4 0x80BF718E
-#define BUTON8 0x80BFD12E
+#define BUTON0 0x4FF906F
+#define BUTON1 0x4FF00FF
+#define BUTON2 0x4FF807F
+#define BUTON3 0x4FF40BF
+#define BUTON4 0x4FFC03F
+#define BUTON8 0x4FFE01F
 
 int led1 = 8;
 int led2 = 9;
@@ -96,4 +98,3 @@ void loop() {
     }
     irrecv.resume();
   }
-}
